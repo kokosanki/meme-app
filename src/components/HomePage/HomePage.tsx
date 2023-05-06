@@ -1,9 +1,6 @@
-import React from 'react'
-import './styles.scss'
+import "./styles.scss"
 
-type Props = {}
-
-const HomePage = (props: Props) => {
+const HomePage = () => {
   return (
     <div className="home-page">HomePage</div>
   )
