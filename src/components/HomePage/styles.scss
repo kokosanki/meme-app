@@ -1,5 +1,19 @@
 .home-page {
-  border: 2px solid magenta;
-  color: purple;
   display: flex;
+  flex-direction: column;
+
+  &__label {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  &__file-input {
+    margin-bottom: 15px;
+  }
+
+  &__canvas {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+  }
 }
